@@ -2,9 +2,9 @@ import Spline from "@splinetool/react-spline";
 
 export default function Hero() {
   return (
-    <section className="min-h-[calc(90vh - 6rem)] flex flex-col items-center justify-between lg:mt-16 lg:flex-row">
+    <section className="min-h-[calc(90vh - 6rem)] flex flex-col-reverse items-center justify-between lg:mt-16 lg:flex-row">
       <div
-        className="z-10 mt-[85%] ml-[5%] max-w-xl md:mt-[60%] lg:mt-0"
+        className="z-10 mt-24 ml-[5%] max-w-xl md:mt-[60%] lg:mt-0"
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
@@ -51,14 +51,13 @@ export default function Hero() {
 
       {/* 3D model */}
       <Spline
-        className="absolute top-[-20%] bottom-0 -mt-24 -mr-48 sm:left-[-2%] lg:top-0 lg:left-[25%]"
+        className="lg:-mt-36 lg:-mr-28"
         style={{ width: "50rem" }}
         scene="https://prod.spline.design/UrSTPpXsQli-86rR/scene.splinecode"
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
-        data-aos-delay="300"
+        data-aos-delay="2000"
         data-aos-offset="0"
-        data-aos-duration="3000"
       />
     </section>
   );

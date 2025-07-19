@@ -32,7 +32,7 @@ export default function Header() {
           className="z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300"
           data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="1500"
+          data-aos-duration="1250"
         >
           features
         </a>
@@ -41,7 +41,7 @@ export default function Header() {
           className="z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300"
           data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
         >
           resources
         </a>
@@ -50,7 +50,7 @@ export default function Header() {
           className="z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300"
           data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="2500"
+          data-aos-duration="1750"
         >
           docs
         </a>
