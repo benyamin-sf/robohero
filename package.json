@@ -13,6 +13,7 @@
   "dependencies": {
     "@splinetool/react-spline": "^4.1.0",
     "@tailwindcss/vite": "^4.1.5",
+    "aos": "^2.3.4",
     "boxicons": "^2.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

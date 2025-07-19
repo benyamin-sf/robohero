@@ -7,31 +7,50 @@ export default function Header() {
 
   return (
     <header className="flex items-center justify-between p-4 lg:px-20">
-      <h1 className="text-3xl font-light md:text-4xl lg:text-5xl">BSF.IO</h1>
+      <h1
+        className="text-3xl font-light md:text-4xl lg:text-5xl"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        BSF.IO
+      </h1>
 
       {/* Desktop navigation */}
       <nav className="hidden items-center gap-12 md:flex">
         <a
           href="#"
           className="z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
         >
           company
         </a>
         <a
           href="#"
           className="z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
         >
           features
         </a>
         <a
           href="#"
           className="z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
         >
           resources
         </a>
         <a
           href="#"
           className="z-50 text-base tracking-wider uppercase transition-colors hover:text-gray-300"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="2500"
         >
           docs
         </a>
